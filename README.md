@@ -9,4 +9,6 @@ Dumps out the following:
   public 'test_mode' => boolean true
   public 'debug_mode' => boolean false
   public 'log_file_path' => string '/tmp/logfile.log' (length=16)
-  public 'send_notifications' => boolean true```
+  public 'send_notifications' => boolean true
+  ```
+  Download and run index.php. Include your own config file if you'd like. Just replace it as the parameter in the ConfigParser instantiation in index.php.
