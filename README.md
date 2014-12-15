@@ -1,4 +1,4 @@
-Dumps out the following: 
+Takes a config file and stores all config values as accessible php variables. Var_dump below : 
 
 ```object(ConfigParser)[1]
   public 'host' => string 'test.com' (length=8)
@@ -11,4 +11,3 @@ Dumps out the following:
   public 'log_file_path' => string '/tmp/logfile.log' (length=16)
   public 'send_notifications' => boolean true
   ```
-  Download and run index.php. Include your own config file if you'd like. Just replace it as the parameter in the ConfigParser instantiation in index.php.
